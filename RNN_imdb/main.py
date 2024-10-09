@@ -5,13 +5,17 @@ from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 import streamlit as st
+from pathlib import Path
 
 # Load the IMDB dataset word index
 word_index = imdb.get_word_index()
 reverse_word_index = {value: key for key, value in word_index.items()}
 
+base_path = Path(__file__).parent / "models"
+
 # Load the pre-trained model with ReLU activation
-model = load_model('/models/simple_rnn_imdb.h5')
+# model = load_model('models/simple_rnn_imdb.h5')
+model = tf.keras.models.load_model(base_path / "simple_rnn_imdb.h5")
 
 # Step 2: Helper Functions
 # Function to decode reviews
