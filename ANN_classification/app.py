@@ -4,11 +4,15 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pandas as pd
 import pickle
+from pathlib import Path
+
 
 @st.cache_data
 def load_data():
+    # base_path = Path(__file__).parent / "models"
     # Load the trained model
     model = tf.keras.models.load_model('../models/churn_model.h5')
+    # model = tf.keras.models.load_model(base_path / "churn_model.h5")
 
     ## load the encoder and scaler
     with open('../models/churn_onehot_encoder_geo.pkl','rb') as file:

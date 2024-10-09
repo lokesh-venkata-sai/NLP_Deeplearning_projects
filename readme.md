@@ -4,7 +4,10 @@
     - Application to predict the churn of a customer in bank.
     - refer to /ANN_classification/ folder for the source code
     - Used Keras, Streamlit to train and deploy the model
-2) 
+2) Movie Sentiment classification using RNN
+    - Application to predict the sentiment of a movie.
+    - refer to /RBB_imdb/ folder for the source code
+    - Used Keras, Streamlit to train and deploy the model
 
 
 
