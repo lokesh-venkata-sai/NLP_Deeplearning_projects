@@ -6,7 +6,7 @@
     - Used Keras, Streamlit to train and deploy the model
 2) Movie Sentiment classification using RNN
     - Application to predict the sentiment of a movie.
-    - refer to /RBB_imdb/ folder for the source code
+    - refer to /RNN_imdb/ folder for the source code
     - Used Keras, Streamlit to train and deploy the model
 
 
