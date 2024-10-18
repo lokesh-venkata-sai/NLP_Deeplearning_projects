@@ -2,13 +2,16 @@
 
 1) Churn Prediction using ANN - classification
     - Application to predict the churn of a customer in bank.
-    - refer to /ANN_classification/ folder for the source code
-    - Used Keras, Streamlit to train and deploy the model
+    - refer to /ANN_classification/ folder for the source code.
+    - Used Keras, Streamlit to train and deploy the model.
 2) Movie Sentiment classification using RNN
     - Application to predict the sentiment of a movie.
-    - refer to /RNN_imdb/ folder for the source code
-    - Used Keras, Streamlit to train and deploy the model
-
+    - refer to /RNN_imdb/ folder for the source code.
+    - Used Keras, Streamlit to train and deploy the model.
+3) Next word prediction using LSTM
+    - Application to predict the next word of any text
+    - refer to /LSTM_RNN/ folder for the source code.
+    - Used Keras, Streamlit to train and deploy the model.
 
 
 ### Few handy Commands
